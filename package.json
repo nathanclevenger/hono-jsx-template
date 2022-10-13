@@ -1,0 +1,16 @@
+{
+  "main": "dist/worker.js",
+  "scripts": {
+    "build": "esbuild --bundle --outdir=dist --loader:.js=jsx ./worker.js",
+    "live": "miniflare --live-reload --debug",
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "hono": "^2.2.5"
+  },
+  "devDependencies": {
+    "miniflare": "^2.10.0",
+    "wrangler": "^2.1.11"
+  }
+}
