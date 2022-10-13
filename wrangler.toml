@@ -1,3 +1,7 @@
 name = 'template'
+# route = { pattern = '*/*', zone_name = 'templates.do' }
+usage_model = 'unbound'
 main = 'worker.js'
 compatibility_date = '2022-10-13'
+
+# services = [{ binding = 'CTX', service = 'ctx-do', environment = 'production' }]
