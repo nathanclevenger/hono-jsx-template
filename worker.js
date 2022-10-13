@@ -1,7 +1,4 @@
-/** @jsx jsx */
-/** @jsxFrag  Fragment */
 import { Hono } from 'hono'
-import { jsx } from 'hono/jsx'
 
 import { Layout } from './components/Layout'
 import { Hero } from './components/Hero'
