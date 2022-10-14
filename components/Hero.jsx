@@ -39,7 +39,7 @@ export const Hero = () => {
                 <a href="#" class="flex w-full items-center justify-center rounded-md border border-transparent bg-brand-600 px-8 py-3 text-base font-medium text-white hover:bg-brand-700 md:py-4 md:px-10 md:text-lg">Get started</a>
               </div>
               <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                <a href="#" class="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-brand-600 hover:bg-gray-50 md:py-4 md:px-10 md:text-lg">Live demo</a>
+                <a href="#" class="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-brand-600 hover:bg-gray-50 md:py-4 md:px-10 md:text-lg">Learn more</a>
               </div>
             </div>
           </div>

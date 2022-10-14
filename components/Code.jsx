@@ -1,5 +1,4 @@
-export const Code = ({ code = `curl "https://api.page"
-
+export const Code = ({ code = `
 {
   "url": "https://example.com",
   "hello": "world",
@@ -21,7 +20,7 @@ export const Code = ({ code = `curl "https://api.page"
                 <div class="w-3 h-3 border-2 rounded-full border-green-400" />
               </div>
             </div>
-            <div class="overflow-scroll ml-3 md:ml-5 lg:ml-8 p-3">
+            <div class="overflow-scroll mx-3 md:mx-5 lg:mx-8 pb-3">
               <pre>
                 <code  class="language-json">
                   {code}

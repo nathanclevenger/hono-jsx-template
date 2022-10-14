@@ -1,10 +1,10 @@
 import { Code } from "./Code"
 
 export const Benefits = props => (
-  <div class="relative overflow-hidden bg-white pt-16 pb-32">
+  <div class="relative overflow-hidden bg-white pb-16 pt-32">
     <div class="relative">
       <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
-        <div class="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+        <div class="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:px-0">
           <div>
             <div class="mt-6">
               <h2 class="text-3xl font-bold tracking-tight text-gray-900">Stay on top of customer support</h2>
@@ -15,8 +15,8 @@ export const Benefits = props => (
             </div>
           </div>
         </div>
-        <div class="mt-12 sm:mt-16 lg:mt-0">
-          <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+        <div class="mt-12 sm:mt-16 lg:mt-6">
+          <div class="lg:relative lg:m-0 lg:h-full lg:px-0">
             <Code />
           </div>
         </div>
@@ -24,7 +24,7 @@ export const Benefits = props => (
     </div>
     <div class="mt-24">
       <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
-        <div class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
+        <div class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:px-0">
           <div>
             <div class="mt-6">
               <h2 class="text-3xl font-bold tracking-tight text-gray-900">Better understand your customers</h2>
@@ -36,7 +36,7 @@ export const Benefits = props => (
           </div>
         </div>
         <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
-          <div class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+          <div class="lg:relative lg:m-0 lg:h-full lg:px-0">
             <Code />
           </div>
         </div>
