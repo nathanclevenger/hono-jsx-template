@@ -24,7 +24,8 @@ export const Layout = ({children}) => html`<!doctype html>
     <meta name="twitter:title" content="{{ site.name }} - {{ site.title }}" />
     <meta name="twitter:description" content="{{ site.description }}" />
     <meta name="twitter:image" content="{{ site.image | default: 'https://opengraph.githubassets.com/0b7b051d3a37b58ffe0b3c9abc1f8c179c0e698c70135a53186224ec1b1c7b56/nathanclevenger/ship' }}" /></>
-      
+    
+    <link href="https://unpkg.com/prismjs@v1.x/themes/prism.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <script>
       tailwind.config = {
@@ -41,5 +42,9 @@ export const Layout = ({children}) => html`<!doctype html>
       }
     </script>
   </head>
-  <body>${children}</body>
+  <body>
+    ${children}
+    <script src="https://{{cdn}}/prismjs@v1.x/components/prism-core.min.js"></script>
+    <script src="https://{{cdn}}/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+  </body>
 </html>`
