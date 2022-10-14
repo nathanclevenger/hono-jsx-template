@@ -44,7 +44,7 @@ export const Layout = ({children}) => html`<!doctype html>
   </head>
   <body>
     ${children}
-    <script src="https://{{cdn}}/prismjs@v1.x/components/prism-core.min.js"></script>
-    <script src="https://{{cdn}}/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://unpkg.com/prismjs@v1.x/components/prism-core.min.js"></script>
+    <script src="https://unpkg.com/prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
   </body>
 </html>`
