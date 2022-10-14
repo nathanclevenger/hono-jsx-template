@@ -1,6 +1,6 @@
 export const Code = ({ code = 'curl "https://api.page"' }) => (
   <div class="relative">
-    <div class="max-w-2xl mx-auto px-4 sm:px-6">
+    <div class="max-w-2xl max-h-72 mx-auto px-4 sm:px-6">
       <div class="relative rounded-lg shadow-lg mb-5 text-xs sm:text-sm md:text-md xl:text-lg">
         <div class="relative rounded-lg shadow-lg bg-gray-800 text-gray-50">
           <pre class="relative rounded-xl shadow-lg break-normal">
