@@ -19,7 +19,7 @@ export const LandingPage = props => (
     <Features {...props} />
     <Pricing {...props} />
     <FAQ {...props} />
-    <Posts {...props} />
+    {/* <Posts {...props} /> */}
     <CTASimple {...props} />
     <FooterLinks {...props} />
   </Layout>
