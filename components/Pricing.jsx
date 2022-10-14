@@ -1,16 +1,16 @@
 export const Pricing = props => (
-  <div class="bg-gray-900">
+  <div class="bg-gray-50">
     <div class="px-4 pt-12 sm:px-6 lg:px-8 lg:pt-20">
       <div class="text-center">
-        <h2 class="text-xl font-semibold leading-6 text-gray-300">Pricing</h2>
-        <p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">The right price for you, whoever you are</p>
-        <p class="mx-auto mt-3 max-w-4xl text-xl text-gray-300 sm:mt-5 sm:text-2xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit numquam eligendi quos odit doloribus molestiae voluptatum.</p>
+        <h2 class="text-xl font-semibold leading-6 text-gray-700">Pricing</h2>
+        <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">The right price for you, whoever you are</p>
+        <p class="mx-auto mt-3 max-w-4xl text-xl text-gray-600 sm:mt-5 sm:text-2xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit numquam eligendi quos odit doloribus molestiae voluptatum.</p>
       </div>
     </div>
 
     <div class="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
       <div class="relative z-0">
-        <div class="absolute inset-0 h-5/6 bg-gray-900 lg:h-2/3" />
+        <div class="absolute inset-0 h-5/6 bg-gray-50 lg:h-2/3" />
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="relative lg:grid lg:grid-cols-7">
             <div class="mx-auto max-w-md lg:col-start-1 lg:col-end-3 lg:row-start-2 lg:row-end-3 lg:mx-0 lg:max-w-none">
@@ -18,13 +18,13 @@ export const Pricing = props => (
                 <div class="flex flex-1 flex-col">
                   <div class="bg-white px-6 py-10">
                     <div>
-                      <h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Hobby</h3>
+                      <h3 class="text-center text-2xl font-medium text-gray-900" id="tier-hobby">Build</h3>
                       <div class="mt-4 flex items-center justify-center">
                         <span class="flex items-start px-3 text-6xl tracking-tight text-gray-900">
                           <span class="mt-2 mr-2 text-4xl font-medium tracking-tight">$</span>
-                          <span class="font-bold">79</span>
+                          <span class="font-bold">0</span>
                         </span>
-                        <span class="text-xl font-medium text-gray-500">/month</span>
+                        <span class="text-xl font-medium text-gray-500">/mo</span>
                       </div>
                     </div>
                   </div>
@@ -79,13 +79,13 @@ export const Pricing = props => (
                 </div>
                 <div class="rounded-t-lg bg-white px-6 pt-12 pb-10">
                   <div>
-                    <h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6" id="tier-growth">Growth</h3>
+                    <h3 class="text-center text-3xl font-semibold tracking-tight text-gray-900 sm:-mx-6" id="tier-growth">Launch</h3>
                     <div class="mt-4 flex items-center justify-center">
                       <span class="flex items-start px-3 text-6xl tracking-tight text-gray-900 sm:text-6xl">
                         <span class="mt-2 mr-2 text-4xl font-medium tracking-tight">$</span>
-                        <span class="font-bold">149</span>
+                        <span class="font-bold">19</span>
                       </span>
-                      <span class="text-2xl font-medium text-gray-500">/month</span>
+                      <span class="text-2xl font-medium text-gray-500">/mo</span>
                     </div>
                   </div>
                 </div>
@@ -158,9 +158,9 @@ export const Pricing = props => (
                       <div class="mt-4 flex items-center justify-center">
                         <span class="flex items-start px-3 text-6xl tracking-tight text-gray-900">
                           <span class="mt-2 mr-2 text-4xl font-medium tracking-tight">$</span>
-                          <span class="font-bold">349</span>
+                          <span class="font-bold">99</span>
                         </span>
-                        <span class="text-xl font-medium text-gray-500">/month</span>
+                        <span class="text-xl font-medium text-gray-500">/mo</span>
                       </div>
                     </div>
                   </div>
