@@ -13,7 +13,7 @@ import { Table } from "./Table";
 export const Dashboard = props => (
   <Layout>
    <div class="h-full bg-gray-100 overscroll-x-contain">
-    <div>
+    <div  class="h-full overscroll-x-contain">
 
       { /* Static sidebar for desktop */ }
       <div class="hidden md:fixed md:inset-y-0 md:flex md:w-64 md:flex-col">
@@ -126,17 +126,16 @@ export const Dashboard = props => (
           </div>
         </div>
 
-        <main class="flex-1">
+        <main class="flex-1 overscroll-x-contain">
           <div class="py-6">
-            <div class="mx-auto max-w-7xl px-4 sm:px-6 md:px-8">
+            {/* <div class="mx-auto max-w-7xl px-4 sm:px-6 md:px-8">
               <h1 class="text-2xl font-semibold text-gray-900">Dashboard</h1>
-            </div>
+            </div> */}
             <div class="mx-auto max-w-7xl px-4 sm:px-6 md:px-8">
               <Table />
               {/* { props.children } */}
               { /* Replace with your content */ }
               <div class="py-4">
-                <div class="h-96 rounded-lg border-4 border-dashed border-gray-200" />
                 <div class="h-96 rounded-lg border-4 border-dashed border-gray-200" />
               </div>
               { /* /End replace */ }
