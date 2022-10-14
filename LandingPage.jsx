@@ -6,6 +6,7 @@ import { Stats } from './components/Stats'
 import { Posts } from './components/Posts'
 import { Logos } from './components/Logos'
 import { Pricing } from './components/Pricing'
+import { FAQ } from './components/FAQ'
 
 export const LandingPage = props => (
   <Layout {...props} >
@@ -15,6 +16,7 @@ export const LandingPage = props => (
     <Logos {...props} />
     <Features {...props} />
     <Pricing {...props} />
+    <FAQ {...props} />
     <Posts {...props} />
   </Layout>
 )
