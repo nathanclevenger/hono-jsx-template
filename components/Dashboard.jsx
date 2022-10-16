@@ -1,5 +1,6 @@
 // This example requires updating your template:
 
+import { Form } from "./Form";
 import { Layout } from "./Layout";
 import { Table } from "./Table";
 
@@ -133,6 +134,7 @@ export const Dashboard = props => (
             </div> */}
             <div class="mx-auto max-w-7xl px-4 sm:px-6 md:px-8">
               <Table />
+              <Form />
               {/* { props.children } */}
               { /* Replace with your content */ }
               <div class="py-4">
