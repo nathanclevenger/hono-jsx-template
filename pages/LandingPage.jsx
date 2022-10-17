@@ -13,7 +13,7 @@ import { CTASimple } from '../CTA'
 export const LandingPage = props => (
   <Layout {...props} >
     <Hero {...props} />
-    <Stats {...props} />
+    {/* <Stats {...props} /> */}
     <Benefits {...props} />
     <Logos {...props} />
     <Features {...props} />
