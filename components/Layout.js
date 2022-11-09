@@ -21,10 +21,12 @@ const sharedOptions = {
 
 setup({ ...sharedOptions, sheet })
 
+let body, styleTag = undefined
+
 export const Layout = ({children}) => {
   sheet.reset()
-  const body = shim(children)
-  const styleTag = getStyleTag(sheet)
+  if (!body) body = shim(children)
+  if (!styleTag) styleTag = getStyleTag(sheet)
   return html`<!doctype html>
 <html>
   <head>
