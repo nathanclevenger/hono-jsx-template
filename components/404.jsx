@@ -1,4 +1,4 @@
-import { Layout } from "./Layout";
+import { Layout } from "./TailwindLayout";
 
 export const NotFound = props => (
   <Layout>
