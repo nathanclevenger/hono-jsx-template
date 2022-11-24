@@ -1,6 +1,6 @@
 import { html, raw } from 'hono/html'
 
-export const Layout = ({ children }) => html`<!doctype html>
+export const Layout = ({ children, brand }) => html`<!doctype html>
 <html>
   <head>
 
